@@ -1,0 +1,4 @@
+#!/bin/bash
+gcc -S -masm=intel $CFILE
+
+The Bash script compiles a C file to assembly code using the gcc compiler with the -S and -masm=intel flags.
