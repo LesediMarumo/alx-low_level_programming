@@ -46,7 +46,7 @@ unsigned int binary_to_uint(const char *b)
 
 	if (!b)
 		return (0);
-	power = _len(b) - 1;
+	power= _len(b) - 1;
 	while (*b)
 	{
 		if (*b != '0' && *b != '1')
